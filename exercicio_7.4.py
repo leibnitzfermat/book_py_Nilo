@@ -7,3 +7,5 @@ for letra in sequencia:
 
 for chave, valor in contador.items():
     print(f"{chave}: {valor}x")
+    
+teste
