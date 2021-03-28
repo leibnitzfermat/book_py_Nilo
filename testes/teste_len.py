@@ -1,10 +1,5 @@
-l = []
-while True:
-    n = int(input("Digite um numero (o para sai): "))
-    if n == 0:
-        break
-    l.append(n)
-x = 0
-while x < len(l):
-    print(l[x])
-    x += 1
+import random
+
+for x in range(10):
+    print(random.randrange(100))
+    
